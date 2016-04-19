@@ -12,7 +12,7 @@ process sayHello {
   file 'output.txt' into unexcited
 
   """
-  echo '$x world!' > output.txt
+  echo '$x world' > output.txt
   """
 }
 
